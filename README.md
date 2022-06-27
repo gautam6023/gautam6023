@@ -6,7 +6,7 @@ I am **Gautam Gohil**. a Tech enthusiast. I love to build apps that are interest
 ⚡ Little bit more about me:
 
 - ⚗️ Though I hold Bachelor's degree in civil engineering, I become a Full Stack (MERN) web developer.
-- 🌱 I’m actively looking for oppotunities.
+- 🌱 I’m actively looking for oppoturnities.
 
 #### ⚡ One line that describes me best? 
 A hard working and energetic person who loves to code.
