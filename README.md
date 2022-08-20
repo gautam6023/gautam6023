@@ -1,19 +1,22 @@
-# Hi there 👋
+<h1 align="center">Hi 👋, I'm Gautam Gohil</h1>
 
-I am **Gautam Gohil**. a Tech enthusiast. I love to build apps that are interesting and useful. and I'm a passionate learner who's always willing to learn and work across technologies and domains. I love to explore new technologies and leverage them to solve real-life problems sparkles.
+I am a Tech enthusiast. I love to build apps that are interesting and useful. and I'm a passionate learner who's always willing to learn and work across technologies and domains. I love to explore new technologies and leverage them to solve real-life problems sparkles.
  
 
 ⚡ Little bit more about me:
 
 - ⚗️ Though I hold Bachelor's degree in civil engineering, I become a Full Stack (MERN) web developer.
+
 - 🌱 I’m actively looking for oppoturnities.
+
+- 🌍  I'm based in Jamnagar,Gujarat.
+
+- Visit my [Portfolio](https://gautamgohil.com/) for more details.
+
+- ✉️  You can contact me at [gautamgohil0@gmail.com](mailto:gautamgohil0@gmail.com)
 
 #### ⚡ One line that describes me best? 
 A hard working and energetic person who loves to code.
-
-* 🌍  I'm based in Jamnagar,Gujarat
-* Visit my [Portfolio](https://gautamgohil.com/) for more details.
-* ✉️  You can contact me at [gautamgohil0@gmail.com](mailto:gautamgohil0@gmail.com)
 
 <br />
 
