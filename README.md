@@ -1,6 +1,6 @@
 <h1 align="left">Hi 👋, I'm Gautam Gohil</h1>
 
-I am a Tech enthusiast. I love to build apps that are interesting and useful. and I'm a passionate learner who's always willing to learn and work across technologies and domains. I love to explore new technologies and leverage them to solve real-life problems sparkles.
+<h6>I am a Tech enthusiast. I love to build apps that are interesting and useful. and I'm a passionate learner who's always willing to learn and work across technologies and domains. I love to explore new technologies and leverage them to solve real-life problems sparkles.</h6>
  
 - ⚗️ Though I hold Bachelor's degree in civil engineering, I become a Full Stack (MERN) web developer.
 
