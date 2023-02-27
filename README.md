@@ -39,7 +39,7 @@ A hard working and energetic person who loves to code.
 <a href="http://www.github.com/gautam6023"><img src="https://github-readme-streak-stats.herokuapp.com/?user=gautam6023&stroke=ffffff&background=000000&ring=0891b2&fire=0891b2&currStreakNum=ffffff&currStreakLabel=0891b2&sideNums=ffffff&sideLabels=ffffff&dates=ffffff&hide_border=true" /></a>
 
 <a href="http://www.github.com/gautam6023">
-  <img src="https://activity-graph.herokuapp.com/graph?username=gautam6023&bg_color=0D1117&color=ffffff&line=1A237E&point=1E88E5&area=true&hide_border=true" alt="GitHub Commits Graph" /></a>
+  <img src="https://github.com/gautam6023/github-readme-activity-graph&bg_color=0D1117&color=ffffff&line=1A237E&point=1E88E5&area=true&hide_border=true" alt="GitHub Commits Graph" /></a>
 
 <a href="https://github.com/gautam6023" align="left"><img src="https://github-readme-stats.vercel.app/api/top-langs/?username=gautam6023&langs_count=10&title_color=0891b2&text_color=ffffff&icon_color=0891b2&bg_color=000000&hide_border=true&locale=en&custom_title=Top%20%Languages" alt="Top Languages" /></a>
 ---
