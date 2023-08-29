@@ -7,24 +7,24 @@
 
 ### `1. Signup / Register at vi.masaischool.com:`
    
-   - Make sure to use your organisation's email address to register at vi.masaischool.com.
+   - Ensure that you register at vi.masaischool.com using your organization's email address.
      
    ##### `Existing User`
-   - If you are an existing user for the same organisation then you will be added to the organisation automatically.
-   - After signup get your account verified from the admin of the organisation.
+   - If you are already a user within the same organization, you will be automatically added to the organization.
+   - After signing up, have your account verified by the organization's admin.
      
    ##### `New User`
-   - In can you are a new user then after registering, get verified your own account and organisation account with the admin / contact     
-     Ai.Mas team.
-   - New organisation will be created automatically at vi.masaischool.com with respect your business email address. 
+   - If you are a new user, register and verify both your personal and organizational accounts with the Ai.Mas team.
+     
+   - A new organization will be automatically created at vi.masaischool.com based on your business email address If you are an new user.
 
-### `2. Create API Key for the organisation:`
+### `2.  Generate an API Key for the Organization:`
 
- - After getting verified your organisation and your account you can get your API key.
+ - Once your organization and account are verified, you can generate an API key.
    
- - Get API keys from the admin / Ai.Mas team as of now.
+ - Obtain API keys from the admin or Ai.Mas team as of now.
    
- - After getting the API key, To access the API's of the Ai.Mas platform you need to pass API key as a token in the headers of the all       requests.
+ - After obtaining the API key, include it as a token in the headers of all API requests to access the Ai.Mas platform..
    
    ```js
       headers:{
@@ -32,9 +32,9 @@
       }
    ```
 
-### `3. Create Webhook for the organisation`
+### `3. Set Up a Webhook for the Organization:`
 
-   - To create a webhook use following endpoint and make sure you pass apikey in the headers of the request.
+   - To establish a webhook, use the following endpoint and ensure that you pass the API key in the request headers.
      
    - `POST : VI_API_URL/webhook/create` : Make a POST request on this endpoint.
      
@@ -53,13 +53,13 @@
      ```
 ### `4. Assessments`
 
-   ### Get an Assessments :
+   ### Get Assessments :
    
    - Use  `GET : VI_API_URL/virtual-interview-template/assessments` endpoint to get All assessments.
      
    ### Create an Assessments :
 
-   - Use `POST : VI_API_URL/virtual-interview-template/assessments/create` to create an assessment.
+   - Utilize the `GET : VI_API_URL/virtual-interview-template/assessments` endpoint to retrieve all assessments.
    - You need to include following things in the body of this POST request.
    - `title` : Title of the Assessment
    - `questions` : Question Id's.
@@ -120,28 +120,57 @@
                    GPT35TurboMarch = 'gpt-3.5-turbo-0301',
                    GPT35Turbo = 'gpt-3.5-turbo
      ```
-   - `webhooks` : Add an Id of your ogranisation's webhooks
+   - `webhooks` : Add an Ids of your ogranisation's webhooks
    - Body :
      ```js
                  {
-                   "title": "Test2 ",
+                   "title": "Title",
                    "questions": ["Questin ID"],
-                   "intro_message": "Hi , I am Gautam, working at masai in tech team",
-                   "interviewer_name": "Gautam",
-                   "voice_code": "en-US-GuyNeural", //Hardcoded
-                   "redirect_url": "masaischool.com",
+                   "intro_message": "Hi, There",
+                   "interviewer_name": "Ai.Mas",
+                   "voice_code": "en-US-GuyNeural",
+                   "redirect_url": "https://example.com",
                    "schedule_start_time": "2023-08-28T01:25",
                    "schedule_end_time": "2023-08-28T03:28",
                    "max_duration_minutes": "10",
-                   "lock_assessment_after_end_time": false, //Hardcoded
-                   "model": "gpt-3.5-turbo" //Hardcoded
-                   "webhooks":["Webhook Id"] //Hardcoded
+                   "lock_assessment_after_end_time": false, 
+                   "model": "gpt-3.5-turbo"
+                   "webhooks":["Webhook Ids"] 
                 }
      ```
      
    ### Get Assessment By Id
    
-   - Use `GET VI_API_URL/virtual-interview-template/assessments/:id`.
+   - Retrieve a specific assessment using `GET VI_API_URL/virtual-interview-template/assessments/:id`.
+
+
+   ### Get Submissions for an Assessment: 
+
+   - Obtain submissions for an assessment using `GET VI_API_URL/vi-assessment/submissions/?assessment_id=:id`.
+
+
+   ### Create Interview / Add Users to Assessment :
+
+   - Use `POST VI_API_URL/vi-assessment/submission/create` to add users, they will be appearing for the Interview / Asssessment.
+     
+   - Include the following in the request body:
+     
+   - `email` : User's Email address.
+     
+   - `code` : Unique code.
+     
+   - `assessment_id` : Id of the Assessment.
+     
+   - `meta` : Addition details of the user.
+     ```js
+          {
+           "assessment_id": "ASSESSMENT_ID",
+           "code": "EXAMPLE_123",
+           "email": "example@gmail.com",
+           "meta": "{}",
+           "variables": []
+          }
+     ```
       
          
 
