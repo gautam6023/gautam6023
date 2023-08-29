@@ -139,7 +139,7 @@
                 }
      ```
      
-   ### Get Assessment By Id
+   ### Get Assessment By Id:
    
    - Retrieve a specific assessment using `GET VI_API_URL/virtual-interview-template/assessments/:id`.
 
