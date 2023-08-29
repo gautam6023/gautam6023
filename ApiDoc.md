@@ -2,7 +2,7 @@
 
 ## Terminology
 
-- VI_API_URL => Server end point of VI Platform
+- `VI_API_URL`: Server endpoint of VI Platform
 
 
 ### `1. Signup / Register at vi.masaischool.com:`
