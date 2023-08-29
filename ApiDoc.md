@@ -138,6 +138,11 @@
                    "webhooks":["Webhook Id"] //Hardcoded
                 }
      ```
+     
+   ### Get Assessment By Id
+   
+   - Use `GET VI_API_URL/virtual-interview-template/assessments/:id`.
+      
          
 
 
