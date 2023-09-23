@@ -8,7 +8,7 @@
 
 - 🌍 I'm based in Jamnagar,Gujarat
 
-- 💼 Visit my [Portfolio](https://gautamgohil.com/) for more details.
+- 💼 Visit my [Portfolio](https://gautamgohil.vercel.app/) for more details.
 
 - ✉️  You can contact me at [gautamgohil0@gmail.com](mailto:gautamgohil0@gmail.com)
 
